@@ -1,1 +1,0 @@
-cd && pkg install toilet figlet nano -y mv Login .anon && cd .anon && chmod 777 setpass && mv setpass /data/data/com.termux/files/usr/bin && nano /data/data/com.termux/files/usr/etc/bash.bashrc && cd && clear && toilet -f term --metal 'Tyep setpass to lock your termux'  
