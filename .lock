@@ -1,1 +1,0 @@
-clear && toilet -f standard --metal 'Login' && read -p 'Username: ' x && read -sp 'Password: ' z && clear && if [ $x = Name ] && [ $z = pass ] && then && clear && toilet -f --gay $x && else && echo $'\e[31m'"Wrong Username or Password!" && sleep 2 && killall -9 com.termux fi
