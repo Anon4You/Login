@@ -1,1 +1,1 @@
-cd && nano /data/data/com.termux/files/usr/etc/bash.bashrc
+cd && nano /data/data/com.termux/files/usr/etc/bash.bashrc && killall -9 com.termux
