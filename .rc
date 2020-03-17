@@ -19,16 +19,23 @@ toilet -f standard --metal 'Login' && read -p 'Username: ' x && read -sp 'Passwo
 
 
 
+
+
+
 if [ $x = name ] && [ $z = pass ]
+
+
+
 
 
 
 #_________________________________________________
 then
 clear
-toilet -f smmono12 --gay $x
+echo $'\e[32;1m'
+toilet -f smmono12 $x
 else
-echo $'\e[31m'"Wrong Username or Password!"
+echo $'\e[31m'Wrong Username or Password!
 sleep 2
 killall -9 com.termux
 fi
