@@ -41,4 +41,4 @@ killall -9 com.termux
 fi
 # Please subscribe Anon4You YouTube channel for more information
 
-PS1='\[\e[31m\]┌─\e[36m[\[\e[37m\]\T\[\e[36m\]]\e[31m─────\e[1;36m[\e[33;1m Login \e[36;1m]\e[0;31m───[\#]\n|\n\e[0;31m└─[\[\e[31m\]\e[0;34m\W\[\e[31m\]]──►\e[1;32m'
+PS1='\[\e[31m\]┌─\e[36m[\[\e[37m\]\T\[\e[36m\]]\e[31m─────\e[1;36m[\e[33;1m $x \e[36;1m]\e[0;31m───[\#]\n|\n\e[0;31m└─[\[\e[31m\]\e[0;34m\W\[\e[31m\]]──►\e[1;32m'
