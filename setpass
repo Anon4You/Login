@@ -1,1 +1,1 @@
-cd && nano .anon/.lock
+cd && nano /data/data/com.termux/files/usr/etc/bash.bashrc
